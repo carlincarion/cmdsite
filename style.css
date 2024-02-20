@@ -1,0 +1,58 @@
+body, html {
+	/* this controls universal elements on your site. Everything in here can be overridden by styles below. */
+  height: 100%;
+  margin: 0;
+  font-family:; /* definitely check out https://www.w3schools.com/cssref/pr_font_font-family.asp for more info on font families */
+  background-color:;
+}
+/* After you set your universals, beginning laying out specific classes. As you begin to add elements to your site these will grow. Don't be afraid of borrowing elements from the tutorial or w3 schools */
+
+.yourclasshere {
+ 	    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #00008B;
+    font-size: 250%;
+}
+/*some of these classes might impact different divs you use to set up your site. Within those divs you'll have paragraphs  and lists and images and headers . You can specificy the style for those specific elements like i've done below for paragraphs <p></p>*/
+
+.yourclasshere p {
+     text-align: center;	
+	font-weight: normal;
+	line-height: 1;
+    color: #00008B;
+    font-size: 50%;
+    
+}
+.andanotherclasshere {
+}
+
+.stillanotherclasshere {
+}
+
+.etc {
+}
+
+/* This CSS section controls the paragraph, video blocks. These are really important sections! They change the bulk of how your text is arranged on the screen. Try playing around with these elements. */
+@media screen and (min-width: 800px) {
+    .typeyourclassnameshere, .andhere, .andhereifyouneedto{
+		/* This section adjusts non-mobile screens*/
+        margin: auto; /* how much space do you want on either side of your content? auto makes it equal on both sides*/
+        width: 50%; /*how much space do you want your content to take up? */
+        padding: 50px; /*how much space between specific divs do you want */
+        font-size: 125%; /*this makes the font on a larger screen bigger than on a mobile device*/
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .typeyourclassnameshere, .andhere, .andhereifyouneedto {
+		/* This section adjusts mobile screens*/
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+        padding-bottom: : 50px;
+    }
+}
