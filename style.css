@@ -6,7 +6,7 @@ body, html {
 }
 
 .hero-image {
-    background-image:url("city copy.JPG");
+    background-image:url("city%20copy.jpg");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
