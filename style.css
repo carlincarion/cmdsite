@@ -151,6 +151,8 @@ hr {
 	font-size: 150%;
 	line-height: 1.5;}
 
+.digital p15 {position:absolute;
+    top: 385%;left: 5%; right: 5%;text-align: center;}
 
 @media screen and (min-width: 1000%) {
     .twine, .pgh, .intro, .digital}
